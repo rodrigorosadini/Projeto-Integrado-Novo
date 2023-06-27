@@ -18,16 +18,16 @@ export const Login = () => {
             <img src={back} alt='' />
             <div className='text'>
               <h3>Login</h3>
-              <h1>My ACcount</h1>
+              <h1>Minha Conta</h1>
             </div>
           </div>
 
           <form onSubmit={handleSubmit}>
-            <span>Username or Email address</span>
+            <span>Usuário ou E-mail cadastrado</span>
             <input type='text' required />
-            <span>Password * </span>
+            <span>Senha * </span>
             <input type='password' required />
-            <button className='button'>Log in </button>
+            <button className='button'>Entrar </button>
           </form>
         </div>
       </section>

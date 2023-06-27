@@ -7,7 +7,7 @@ export const Account = () => {
     <>
       <section className='accountInfo'>
         <div className='container boxItems'>
-          <h1>Account Information</h1>
+          <h1>Informaçoes da conta</h1>
           <div className='content'>
             <div className='left'>
               <div className='img flexCenter'>
@@ -16,13 +16,13 @@ export const Account = () => {
               </div>
             </div>
             <div className='right'>
-              <label>Username</label>
+              <label>Usuário</label>
               <input type='text' required />
               <label>Email</label>
               <input type='text' required />
-              <label>Password * </label>
+              <label>Senha * </label>
               <input type='text' required />
-              <button className='button'>Update</button>
+              <button className='button'>Alterar</button>
             </div>
           </div>
         </div>

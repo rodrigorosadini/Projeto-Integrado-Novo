@@ -24,7 +24,7 @@ export const CartItems = ({ id, cover, name, price, quantity, totalPrice }) => {
           </div>
           <div className='details'>
             <p>{name}</p>
-            <label htmlFor=''>Unit Price ${price}</label>
+            <label htmlFor=''>Preço Unidade R${price}</label>
 
             <div className='price'>
               <div className='qty flexCenter'>

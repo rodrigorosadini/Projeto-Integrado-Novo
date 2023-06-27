@@ -31,7 +31,7 @@ export const Card = () => {
 
       <div className={cardOpen ? "cartItem" : "cardhide"}>
         <div className='title flex'>
-          <h2>Shopping Cart</h2>
+          <h2>Carrinho</h2>
           <button onClick={closeCard}>
             <AiOutlineClose className='icon' />
           </button>
@@ -42,8 +42,8 @@ export const Card = () => {
 
         <div className='checkOut'>
           <button>
-            <span>Priceed To Checkout</span>
-            <label htmlFor=''>${total}</label>
+            <span>Seguir para o pagamento</span>
+            <label htmlFor=''>R${total}</label>
           </button>
         </div>
       </div>

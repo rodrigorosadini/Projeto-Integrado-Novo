@@ -38,37 +38,37 @@ export const User = () => {
                     </div>
                   </Link>
                   <div className='text'>
-                    <h4>Eden Smith</h4>
-                    <label htmlFor=''>Los Angeles,CA</label>
+                    <h4>Paulo</h4>
+                    <label htmlFor=''>Brasilia,DF</label>
                   </div>
                 </div>
                 <Link to='/login'>
                   <button className='box'>
                     <IoSettingsOutline className='icon' />
-                    <h4>My Account</h4>
+                    <h4>Minha Conta</h4>
                   </button>
                 </Link>
                 <button className='box'>
                   <BsBagCheck className='icon' />
-                  <h4>My Order</h4>
+                  <h4>Meus Pedidos</h4>
                 </button>
                 <button className='box'>
                   <AiOutlineHeart className='icon' />
-                  <h4>Wishlist</h4>
+                  <h4>Favoritos</h4>
                 </button>
                 <button className='box'>
                   <GrHelp className='icon' />
-                  <h4>Help</h4>
+                  <h4>Ajuda</h4>
                 </button>
                 <button className='box' onClick={logoutHandler}>
                   <BiLogOut className='icon' />
-                  <h4>Log Out</h4>
+                  <h4>Sair</h4>
                 </button>
               </div>
             )}
           </>
         ) : (
-          <button>My Account</button>
+          <button>Minha Conta</button>
         )}
       </div>
     </>

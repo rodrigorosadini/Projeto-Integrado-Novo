@@ -11,21 +11,21 @@ export const Regsiter = () => {
           <div className='backImg'>
             <img src={back} alt='' />
             <div className='text'>
-              <h3>Register</h3>
-              <h1>My ACcount</h1>
+              <h3>Cadastro</h3>
+              <h1>Minha Conta</h1>
             </div>
           </div>
 
           <form>
-            <span>Email address</span>
+            <span>Seu E-mail</span>
             <input type='text' required />
-            <span>Username * </span>
+            <span>Usuário * </span>
             <input type='text' required />
-            <span>Password * </span>
+            <span>Senha * </span>
             <input type='text' required />
             <span>Confirm Password * </span>
             <input type='text' required />
-            <button className='button'>Register</button>
+            <button className='button'>Cadastro</button>
           </form>
         </div>
       </section>

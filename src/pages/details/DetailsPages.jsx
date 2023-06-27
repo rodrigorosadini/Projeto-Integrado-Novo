@@ -5,7 +5,7 @@ import { AiOutlinePlus, AiOutlineMinus, AiOutlineHeart } from "react-icons/ai"
 export const DetailsPages = () => {
   return (
     <>
-      <h1>DetailsPages</h1>
+      <h1>Detalhes</h1>
     </>
   )
 }
