@@ -42,7 +42,7 @@ export const Card = () => {
 
         <div className='checkOut'>
           <button>
-            <span>Seguir para o pagamento</span>
+            <span>Continuar Comprando</span>
             <label htmlFor=''>R${total}</label>
           </button>
         </div>

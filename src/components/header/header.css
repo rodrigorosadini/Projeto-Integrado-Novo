@@ -142,11 +142,7 @@ header {
   opacity: 0;
   transition: 0.5s;
 }
-.cartContent:hover .img::after,
-.cartContent:hover .remove {
-  opacity: 1;
-  cursor: pointer;
-}
+
 .cartContent img {
   width: 100%;
   height: 100%;
