@@ -1,11 +1,14 @@
 export const slide = [
   {
     image: "../images/slide/slide1.png",
+    onClick: () => {
+      window.location.href = "www.instagram.com/_rodrosadini/";
+    },
   },
   { image: "../images/slide/slide2.png" },
   { image: "../images/slide/slide3.png" },
   { image: "../images/slide/slide4.png" },
-]
+];
 export const order = [
   {
     id: 1,
@@ -27,7 +30,7 @@ export const order = [
     title: "Entrega",
     desc: "Agora só esperar que nosso pedido chegue até você",
   },
-]
+];
 export const category = [
   {
     id: 1,
@@ -89,7 +92,7 @@ export const category = [
     title: "Familiar",
     cover: "../images/category/ca12.jpg",
   },
-]
+];
 export const product = [
   {
     id: 1,
@@ -103,7 +106,7 @@ export const product = [
   {
     id: 2,
     name: "Acne Free Blackhead Removing Scrub",
-    price: 4.99,
+    price: 5.0,
     qty: 1,
     category: "cuidados de beleza",
     cover: "../images/product/product2.jpg",
@@ -148,7 +151,7 @@ export const product = [
   {
     id: 7,
     name: "Biore Baking Soda Acne Scrub",
-    price: 6.99,
+    price: 7.0,
     qty: 1,
     category: "Cuidados de Beleza",
     cover: "../images/product/product7.jpg",
@@ -157,7 +160,7 @@ export const product = [
   {
     id: 8,
     name: "CBD Hemp Extract",
-    price: 89.95,
+    price: 90.0,
     qty: 1,
     category: "Cuidados Bucais",
     cover: "../images/product/product8.png",
@@ -211,7 +214,7 @@ export const product = [
   {
     id: 14,
     name: "First Response Multivitamin Gummy",
-    price: 9.99,
+    price: 10.0,
     qty: 1,
     category: "Contraceptivo",
     cover: "../images/product/product14.png",
@@ -238,7 +241,7 @@ export const product = [
   {
     id: 17,
     name: "I-Pill Emergency Contraceptive Pill",
-    price: 2.99,
+    price: 3.0,
     qty: 1,
     category: "Contraceptivo",
     cover: "../images/product/product17.png",
@@ -247,19 +250,10 @@ export const product = [
   {
     id: 18,
     name: "Innermost The Recover Capsules",
-    price: 15.95,
+    price: 16.0,
     qty: 1,
     category: "Medicina e Primeiros Socorros",
     cover: "../images/product/product18.png",
-    desc: "O termo 'cleanser' refere-se a um produto que limpa ou remove sujeira ou outras substâncias. Um 'cleanser' pode ser um detergente, e existem muitos tipos de 'cleansers' que são produzidos com um objetivo ou foco específico.",
-  },
-  {
-    id: 19,
-    name: "Lacto Calamine Oil Control",
-    price: 3.0,
-    qty: 1,
-    category: "Cuidados com o Rosto e a Pele",
-    cover: "../images/product/product19.jpg",
     desc: "O termo 'cleanser' refere-se a um produto que limpa ou remove sujeira ou outras substâncias. Um 'cleanser' pode ser um detergente, e existem muitos tipos de 'cleansers' que são produzidos com um objetivo ou foco específico.",
   },
   {
@@ -270,5 +264,5 @@ export const product = [
     category: "Cuidados Bucais",
     cover: "../images/product/product20.png",
     desc: "O termo 'cleanser' refere-se a um produto que limpa ou remove sujeira ou outras substâncias. Um 'cleanser' pode ser um detergente, e existem muitos tipos de 'cleansers' que são produzidos com um objetivo ou foco específico.",
-  }
+  },
 ];
